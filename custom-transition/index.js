@@ -36,8 +36,6 @@ const MainAppStack = createStackNavigator({
     },
   },
 }, {
-  // headerMode: 'none',
-  // https://github.com/react-navigation/react-navigation/blob/276249c4c792cc2592d5e829a9c87e81be9dd823/src/TypeDefinition.js
   transitionConfig: () => {
     return {
       transitionSpec: {
